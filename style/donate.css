@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header part */
+
+.banner-container {
+    background-image: url('../images/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    background-blend-mode: multiply;
+
+}
+
+.banner {
+    padding: 175px 300px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.donate-btn {
+    text-align: center;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FF5959;
+    border: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 22px;
+}
+
+/* donate today */
+
+.donate-today {
+    margin: 130px 300px;
+}
+
+.section-title {
+    color: #121212;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: #707070;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+
+}
+
+.amount-container {
+
+    display: flex;
+    gap: 22px;
+}
+
+.amount-container li {
+    list-style: none;
+}
+
+.amnt {
+    width: 148px;
+    border-radius: 5px;
+    color: #707070;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+
+
+
+}
+
+.amnt.one {
+    background: #FAFAFA;
+    padding: 43px 23px;
+    border: 0;
+}
+
+.amnt.two {
+    border: 2px solid #FF5959;
+    background: #FEE;
+    padding: 43px 23px;
+    color: #FF5959;
+}
+
+.amnt.three {
+    background: #FAFAFA;
+    padding: 43px 22px;
+    border: 0;
+}
+
+.amnt.four {
+    background: #FAFAFA;
+    padding: 43px 14px;
+    border: 0;
+}
+
+.amnt.five {
+    background: #FAFAFA;
+    padding: 43px 12px;
+    border: 0;
+}
+
+.other-amount {
+    color: #B3B3B3;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+
+}
+
+.hr {
+    width: 828px;
+}
+
+.hr img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/* Donate plan */
+
+.donate-plan {
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 110px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 24px;
+}
+
+.plan {
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+
+.plan.food {
+
+    background: rgba(79, 157, 166, 0.10);
+
+
+}
+
+.plan.shelter {
+
+    background: rgba(255, 89, 89, 0.10);
+
+}
+
+.plan.frame {
+
+    background: #FFF4D6;
+}
+
+.plan-title {
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    color: #707070;
+    font-family: Poppins;
+}
+
+/* depend-survive part */
+
+.depend-survive-section {
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 130px;
+}
+
+.depend-survive-container {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.description-part .section-title,
+.description-part .section-description {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.description-part .donate-btn {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.image-part img {
+    border-radius: 5px;
+}
+
+/* update section */
+
+
+.update-section {
+    margin-bottom: 130px;
+}
+
+.update-container {
+    padding: 75px 130px;
+    background: #FFF4D6;
+    margin-left: 350px;
+    margin-right: 270px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"],
+.sub-btn {
+    border: 0;
+}
+
+input[type="email"] {
+    padding: 16px 150px 16px 20px;
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+
+}
+
+.sub-btn {
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    padding: 16px 50px;
+    color: #FFF;
+    font-family: Roboto;
+    font-weight: 500;
+
+
+}
+
+::placeholder {
+    color: #AA9F9F;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+/* Footer part */
+
+.footer {
+    height: 30vh;
+    background: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.humble {
+    color: #FF5959;
+    text-align: center;
+    font-family: Lobster;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+
+.do {
+    text-align: center;
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+}
